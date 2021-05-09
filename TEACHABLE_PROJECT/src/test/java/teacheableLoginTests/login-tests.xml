@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Desktop Referral Fragment Acceptance Test Suite" parallel="tests" thread-count="4">
+    <parameter name="enableVideo" value="true"/>
+    <test name="Teachable login test">
+        <classes>
+            <class name="teacheableLoginTests.TeachableLoginTests"/>
+        </classes>
+    </test>
+</suite>
