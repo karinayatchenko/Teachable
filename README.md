@@ -1,0 +1,15 @@
+# Teachable
+The following login tests has been added:
+
+
+- verifyLoginLinkIsVisible
+- verifyLoginLinkRedirectsToLoginPage
+- verifyEmailFieldExists
+- verifyPasswordFieldExist
+- verifyLoginButtonExists
+- verifyForgotPasswordLinkDisplayed
+- verifyUserCanLoginWithValidCredentials
+- verifyUserCannotLoginWithInvalidPassword
+- verifyUserCannotLoginWithIncorrectEmail
+- verifyUserCannotLoginWhenBothEmailAndPasswordFieldBlank
+- verifyUserGetsRedirectedToResetPasswordPage
